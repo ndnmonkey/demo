@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>
+查询结果为：<br>
+    {% for result in results %}
+        <table>
+            <tr>
+                <td>id:{{ result.id }}</td>
+                <td>telephone:{{ result.telephone }}</td>
+                <td>username:{{ result.username }}</td>
+                <td>content:{{ result.content }}</td>
+        </table>
+    {% endfor %}
+
+
+</h2>
+</body>
+</html>
